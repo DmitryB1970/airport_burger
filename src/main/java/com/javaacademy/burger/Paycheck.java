@@ -10,6 +10,7 @@ import java.math.BigDecimal;
  */
 @Value
 public class Paycheck {
+
     BigDecimal totalAmount; //Итоговая стоимость в валюте
     Currency currency; //Валюта чека
     DishType dishType; //Какое блюдо было оплачено

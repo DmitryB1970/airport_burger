@@ -11,6 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 @AllArgsConstructor
 @Slf4j
 public class Steakhouse {
+
     private final Waitress waitress;
     private final Kitchen kitchen;
     private final PayTerminal payTerminal;

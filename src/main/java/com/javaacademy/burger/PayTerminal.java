@@ -26,6 +26,7 @@ public class PayTerminal {
      * то происходит запрос в банк для получения курса конвертации
      * Клиент увидит стоимость в указанной валюте.
      */
+
     public Paycheck pay(DishType dishType, Currency currency) {
         log.info("Началась оплата заказа");
         BigDecimal result = dishType.getPrice(); //Стоимость блюда в рублях

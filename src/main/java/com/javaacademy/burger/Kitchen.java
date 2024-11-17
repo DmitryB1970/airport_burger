@@ -19,6 +19,7 @@ import java.util.Queue;
 @Setter
 @Slf4j
 public class Kitchen {
+
     private boolean hasGas = true; //Есть ли газ на кухне
     @Getter
     private final Map<DishType, Queue<Dish>> completedDishes = new HashMap<>(); //стол готовой еды

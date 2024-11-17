@@ -9,6 +9,7 @@ import java.math.BigDecimal;
  */
 @Getter
 public enum DishType {
+
     BURGER(BigDecimal.valueOf(300)), //Бургер
     RIBS(BigDecimal.valueOf(700)), //Ребра
     FRIED_POTATO(BigDecimal.valueOf(200)), //Жареная картошка;

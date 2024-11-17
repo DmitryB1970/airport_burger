@@ -16,6 +16,7 @@ public class Waitress {
     /**
      * Передача заказа на кухню
      */
+
     public boolean giveOrderToKitchen(DishType dishType, Kitchen kitchen) {
         if (FUAGRA.equals(dishType)) {
             log.warn("Официант: Уважаемый клиент, на данный момент мы не готовим фуагра");
